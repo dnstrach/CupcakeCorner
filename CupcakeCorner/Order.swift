@@ -40,25 +40,25 @@ class Order: Codable {
     
     var name: String {
         didSet {
-            UserDefaults.standard.set(newValue, forKey: "name")
+            UserDefaults.standard.set(name, forKey: "name")
         }
     }
     
     var streetAddress: String {
         didSet {
-            UserDefaults.standard.set(newValue, forKey: "streetAddress")
+            UserDefaults.standard.set(streetAddress, forKey: "streetAddress")
         }
     }
     
     var city: String {
         didSet {
-            UserDefaults.standard.set(newValue, forKey: "city")
+            UserDefaults.standard.set(city, forKey: "city")
         }
     }
     
     var zipcode: String {
         didSet {
-            UserDefaults.standard.set(newValue, forKey: "zipcode")
+            UserDefaults.standard.set(zipcode, forKey: "zipcode")
         }
     }
     
